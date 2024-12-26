@@ -71,7 +71,6 @@ export default function ArticlesPage() {
                 .map((data, index) => (
                     <Article
                         key={index}
-                        articleImage={data.articleImage}
                         articleUrl={data.articleUrl}
                         category={data.category}
                         date={data.date}

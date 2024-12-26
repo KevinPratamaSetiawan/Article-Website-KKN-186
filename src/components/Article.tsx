@@ -1,7 +1,6 @@
 // import { useNavigate } from 'react-router-dom';
 
 type ArticleProps = {
-    articleImage: string;
     articleUrl: string;
     title: string;
     category: string;
@@ -10,7 +9,7 @@ type ArticleProps = {
     date: string;
 }
 
-export default function Article({ articleImage, articleUrl, title, category, description, author, date }: ArticleProps) {
+export default function Article({ articleUrl, title, category, description, author, date }: ArticleProps) {
     // const navigate = useNavigate();
     // const articleData = {
     //     articleImage: articleImage,
