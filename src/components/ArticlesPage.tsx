@@ -7,7 +7,7 @@ import Header from "./Header";
 import { articlesData } from '../utils/data';
 
 export default function ArticlesPage() {
-    document.title = "Beranda | KKN'186";
+    document.title = "Artikel | KKN'186";
     const [categoryFilter, setCategoryFilter] = React.useState("All");
     
 
@@ -72,6 +72,7 @@ export default function ArticlesPage() {
                     <Article
                         key={index}
                         articleImage={data.articleImage}
+                        articleUrl={data.articleUrl}
                         category={data.category}
                         date={data.date}
                         title={data.title}

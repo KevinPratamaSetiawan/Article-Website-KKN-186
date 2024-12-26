@@ -26,3 +26,105 @@
 .ny-times {
   @apply font-nyTimes text-2xl font-black;
 }
+
+.article-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+aside{
+  display: flex;
+  justify-content: end;
+  align-items: start;
+
+  padding: 20px;
+  width: 25%;
+
+  position: sticky;
+  top: 0;
+}
+
+aside > a{
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 2.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  color: var(--color-black);
+}
+
+.article-main-section{
+  width: 50%;
+  padding: 20px;
+  margin-top: 0;
+}
+
+.article-image{
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  object-position: 50% 0%;
+
+  height: 400px;
+  width: 100%;
+
+  border: 2px solid var(--color-black);
+}
+
+.article-title-attribute{
+  font-size: 2rem;
+  text-transform: none;
+  text-align: start;
+
+  margin-top: 0;
+}
+
+.article-tag-date-attribute, .article-team-author-attribute-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: none;
+
+  margin: 10px 0px;
+  padding: 10px 0px;
+  border-top: 3px solid var(--color-black);
+  border-bottom: 3px solid var(--color-black);
+}
+
+.article-tag-attribute, .article-date-attribute, .article-author-attribute, .article-team-attribute{
+  font-size: 1.2rem;
+  text-transform: none;
+}
+
+.article-content-attribute{
+  margin: 10px 0px;
+}
+
+.material-container{
+  margin: 15px 0px;
+}
+
+.opening-paragraph:first-letter {
+  float: left;
+  font-size: 4.5em;
+  line-height: 0.5em;
+  padding-bottom: 0.05em;
+  padding-top: 0.2em;
+}
+
+.material-container li{
+  margin: 5px 25px;
+
+  list-style: decimal;
+}
+
+.list-title{
+  font-weight: 600;
+  margin: 10px 0px 0px 0px;
+}

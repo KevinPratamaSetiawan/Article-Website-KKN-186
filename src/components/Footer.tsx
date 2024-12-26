@@ -20,19 +20,19 @@ export default function Footer() {
                             </h2>
                             <a
                                 onClick={() => navigate('/home')}
-                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100"
+                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer"
                             >
                                 Beranda
                             </a>
                             <a
                                 onClick={() => navigate('/articles')}
-                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100"
+                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer"
                             >
                                 Artikel
                             </a>
                             <a
                                 onClick={() => navigate('/about')}
-                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100"
+                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer"
                             >
                                 Tentang Kami
                             </a>
@@ -46,7 +46,7 @@ export default function Footer() {
                                 href="https://www.instagram.com/kkn.negerijemanten/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100"
+                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer"
                             >
                                 Instagram
                             </a>
@@ -54,7 +54,7 @@ export default function Footer() {
                                 href="https://www.tiktok.com/@kkn.negerijemanten"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100"
+                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer"
                             >
                                 Tiktok
                             </a>
@@ -62,7 +62,7 @@ export default function Footer() {
                                 href="https://kknnegerijemanten.carrd.co/"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100"
+                                className="inline-block my-[5px] text-black font-[Fjord One] after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer"
                             >
                                 Carrd
                             </a>

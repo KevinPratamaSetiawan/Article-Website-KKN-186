@@ -13,7 +13,7 @@ export default function Header({ chosen }: HeaderProps) {
             <ul className="flex items-center justify-evenly sm:w-[50%] w-[100%]">
                 <li>
                     <a
-                        className={`text-[#595959] font-heading1 text-sm sm:text-lg ${chosen === 'home' ? 'text-[#252525] border-y-2 border-[#252525]' : null} after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100`}
+                        className={`text-[#595959] font-heading1 text-sm sm:text-lg ${chosen === 'home' ? 'text-[#252525] border-y-2 border-[#252525]' : null} after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer`}
                         onClick={() => navigate('/home')}
                     >
                         Beranda
@@ -21,7 +21,7 @@ export default function Header({ chosen }: HeaderProps) {
                 </li>
                 <li>
                     <a
-                        className={`text-[#595959] font-heading1 text-sm sm:text-lg ${chosen === 'articles' ? 'text-[#252525] border-y-2 border-[#252525]' : null} after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100`}
+                        className={`text-[#595959] font-heading1 text-sm sm:text-lg ${chosen === 'articles' ? 'text-[#252525] border-y-2 border-[#252525]' : null} after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer`}
                         onClick={() => navigate('/articles')}
                     >
                         Artikel
@@ -29,7 +29,7 @@ export default function Header({ chosen }: HeaderProps) {
                 </li>
                 <li>
                     <a
-                        className={`text-[#595959] font-heading1 text-sm sm:text-lg ${chosen === 'about' ? 'text-[#252525] border-y-2 border-[#252525]' : null} after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100`}
+                        className={`text-[#595959] font-heading1 text-sm sm:text-lg ${chosen === 'about' ? 'text-[#252525] border-y-2 border-[#252525]' : null} after:block after:content-[''] after:border-b-2 after:border-black after:scale-x-0 after:transition-transform after:duration-250 after:ease-in-out after:origin-[0%_50%] hover:after:scale-x-100 cursor-pointer`}
                         onClick={() => navigate('/about')}
                     >
                         Tentang Kami

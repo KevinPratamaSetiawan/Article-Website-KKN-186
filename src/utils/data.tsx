@@ -52,6 +52,7 @@ export const reduceReuseRecycleData = [
 export const articlesData = [
     {
         articleImage: "./Article/daur-ulang-1.jpg",
+        articleUrl: "./Daur Ulang/daur-ulang-1.html",
         title: "Pembuatan Pupuk Kompos",
         category: "Daur Ulang",
         description: "Pertanian yang berkelanjutan menjadi fokus utama dalam upaya menjaga keseimbangan lingkungan dan menyediakan sumber daya pangan yang berkelanjutan. Dalam rangka mencapai tujuan tersebut, praktik-praktik seperti penggunaan pupuk organik semakin mendapat perhatian. Salah satu pilihan yang terus mendapat sorotan adalah pupuk kompos. Artikel ini akan membahas secara mendalam proses pembuatan pupuk kompos dalam membuka pintu menuju pertanian yang ramah lingkungan dan berkelanjutan. Mari kita terbangun bersama-sama dalam pemahaman tentang keajaiban dari proses transformasi bahan organik menjadi pupuk kompos yang bukan hanya memperkaya tanah, tetapi juga mendukung kehidupan ekosistem pertanian secara menyeluruh.",
@@ -60,6 +61,7 @@ export const articlesData = [
     },
     {
         articleImage: "./Article/daur-ulang-2.jpg",
+        articleUrl: "./Daur Ulang/daur-ulang-2.html",
         title: "Mengubah Limbah Menjadi Energi: Petualangan Menuju Pembuatan Biogas yang Berkelanjutan",
         category: "Daur Ulang",
         description: "Di tengah tuntutan akan energi terbarukan dan penanganan limbah yang bijaksana, pembuatan biogas menjadi pilihan menarik dan bertanggung jawab. Artikel ini mengajak Anda menjelajahi serangkaian langkah-langkah yang terlibat dalam merancang dan menciptakan biogas, sumber energi yang ramah lingkungan yang berasal dari limbah organik. Dari pemilihan bahan baku hingga proses fermentasi, mari kita telusuri setiap langkah dalam membuka pintu menuju dunia energi terbarukan dengan memanfaatkan potensi limbah untuk menghasilkan biogas yang dapat memberdayakan rumah tangga, pertanian, dan bahkan sektor industri. Bergabunglah dalam perjalanan menuju masa depan yang lebih hijau dan berkelanjutan melalui langkah-langkah praktis dalam pembuatan biogas.",
@@ -68,6 +70,7 @@ export const articlesData = [
     },
     {
         articleImage: "./Article/tutorial-1.jpg",
+        articleUrl: "./Tutorial/tutorial-1.html",
         title: "Melangkah Menuju Lingkungan Bersih: Panduan Praktis Pemilahan Sampah",
         category: "Tips & Panduan",
         description: "Pemilahan sampah merupakan langkah krusial dalam menjaga keberlanjutan dan meminimalisir dampak negatif terhadap lingkungan. Dengan peningkatan kesadaran akan pentingnya tindakan individu, artikel ini akan membahas secara mendalam langkah-langkah praktis yang dapat diambil dalam pemilahan sampah. Dari memahami jenis sampah hingga implementasi sistem pemilahan di rumah, mari kita telaah bersama bagaimana setiap individu dapat memberikan kontribusi positif terhadap lingkungan melalui langkah-langkah sederhana. Melangkah bersama-sama dalam upaya pemilahan sampah tidak hanya menciptakan lingkungan yang lebih bersih, tetapi juga membuka pintu menuju pola konsumsi yang lebih berkelanjutan dan bertanggung jawab.",
@@ -76,6 +79,7 @@ export const articlesData = [
     },
     {
         articleImage: "./Article/berita-1.jpg",
+        articleUrl: "./Berita/berita-1.html",
         title: "The Great Pacific Garbage Patch",
         category: "Berita",
         description: "Great Pacific Garbage Patch (GPGP) adalah sebuah fenomena lingkungan yang menunjukkan akumulasi besar sampah plastik di tengah Samudra Pasifik. Tempat ini dikenal sebagai salah satu contoh nyata dampak buruk dari polusi plastik global. Terletak di antara Hawaii dan California, GPGP menjadi perhatian dunia karena melibatkan penumpukan besar partikel plastik yang dihasilkan dari aktivitas manusia.",
@@ -84,6 +88,7 @@ export const articlesData = [
     },
     {
         articleImage: "./Article/tutorial-1.jpg",
+        articleUrl: "./Tutorial/tutorial-2.html",
         title: "Pengklasifikasian Sampah",
         category: "Tips & Panduan",
         description: "Sampah dapat diklasifikasikan berdasarkan berbagai kriteria, seperti sifat bahan, potensi daur ulang, dan dampak lingkungan. Salah satu klasifikasi yang umum digunakan adalah berdasarkan sifat fisik dan kimia sampah itu sendiri.",
@@ -92,6 +97,7 @@ export const articlesData = [
     },
     {
         articleImage: "./Article/daur-ulang-3.jpg",
+        articleUrl: "./Daur Ulang/daur-ulang-3.html",
         title: "Pupuk Organik Cair (POC)",
         category: "Daur Ulang",
         description: "Limbah organik pasar yang melimpah berpotensi sebagai alternatif berkelanjutan dan ramah lingkungan dibandingkan pupuk kimia, meminimalisir ketergantungan pada pupuk kimia membantu meningkatkan kesuburan tanah sehingga mendukung pertumbuhan tanaman yang sehat.",
@@ -99,3 +105,83 @@ export const articlesData = [
         date: "20-01-2024",
     },
 ];
+
+
+export const teamData = [
+    {
+      imgUrl: "./About Us/Member Photo/gilang.jpg",
+      name: "M.Gilang Martiansyah M.",
+      position: "Sains Data'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/fatimatuzzahra.jpg",
+      name: "Fatimatuzzahra",
+      position: "Farmasi'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/vino.jpg",
+      name: "Vino Delta Yana",
+      position: "Matematika'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/ruth.jpeg",
+      name: "Ruth Elisa Sidabutar",
+      position: "Teknik Kimia'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/jhesica.jpeg",
+      name: "Jhesica Putri Hasita",
+      position: "Teknik Sipil'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/maharani.png",
+      name: "Maharani Jati K.",
+      position: "Teknik Biomedis'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/yulia.jpg",
+      name: "Yulia Handayani",
+      position: "Teknik Geofisika'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/irfan.JPG",
+      name: "Irfan Hanif Arrasy",
+      position: "Desain Komunikasi Visual'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/rifana.jpeg",
+      name: "Rifana Adhwa Cahyani",
+      position: "Perencanaan Wilayah & Kota'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/ritchie.jpg",
+      name: "Ritchie Naufal Akbar P.",
+      position: "Teknik Kimia'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/jemima.jpg",
+      name: "Jemima Pingkan W. T.",
+      position: "Arsitektur Lansekap'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/kevin.jpg",
+      name: "Kevin Pratama Setiawan",
+      position: "Teknik Informatika'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/suci.jpg",
+      name: "Suci Abelta Veriawati",
+      position: "Teknik Telekomunikasi'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/jonathan.jpg",
+      name: "Jonathan Ruben Bertua S.",
+      position: "Teknik Pertambangan'21",
+    },
+    {
+      imgUrl: "./About Us/Member Photo/intan.png",
+      name: "Intan Regina Damayanti",
+      position: "Kimia'20",
+    },
+  ];
+  
